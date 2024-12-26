@@ -1,5 +1,5 @@
 # SnapBotPi
-This repository documents the setup and execution of a Selenium script on a Raspberry Pi without a connected display, using Xvfb (X virtual framebuffer). The setup ensures the script runs automatically at startup and can handle multiple instances simultaneously.
+This repository documents the setup and execution of a Selenium script on a Raspberry Pi without a connected display, using Xvfb (X virtual framebuffer) to increase an account's snapchat score by automatically sending snaps of a blank screen to single / multiple bot account(s). The setup ensures the script runs automatically at startup and can handle multiple instances simultaneously.
 
 ---
 
