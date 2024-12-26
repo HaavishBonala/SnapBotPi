@@ -70,6 +70,20 @@ Add the following line:
 This ensures the wrapper script starts automatically on reboot and logs output to `log.txt`.
 
 ---
+## **Customizing the Bot Accounts**
+
+On **line 85** of the Python script (`my_selenium_script.py`), you need to add the names of your bot accounts that have been friended both ways. This ensures the script correctly selects and interacts with these accounts.
+
+Example:
+```python
+bot_names = [
+    'Bot1', 'Bot2', 'Bot3', 'Bot4', 'Bot5'
+]
+```
+
+Replace these names with your bot account names as needed.
+
+---
 
 ## **Testing and Monitoring**
 
